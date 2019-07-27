@@ -153,7 +153,7 @@ var vm = new Vue({
   myOption: 'Hello'
 })
 ```
-
+// No TypeScript não é possível, inserir multiplos valores no array de objetos <..>, o último OBJETO INSERIDO NO ARRAY SEMPRE É SALVO //SOBRE OS OUTROS VALORES DO ARRAY!
 ## Anotando Tipos de Retorno
 
 Por causa da natureza circular dos arquivos de declaração Vue, TypeScript pode ter dificuldades ao inferir tipos de alguns métodos. Por esta razão, você pode precisar anotar o tipo de retorno em métodos como `render` e aqueles em `computed`.
